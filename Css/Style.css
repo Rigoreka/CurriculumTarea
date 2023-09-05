@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(to left, #F7770F 50%, transparent 0%);
     margin: 0;
@@ -21,21 +21,22 @@ body{
     z-index: -1;
 }
 
-.Imagen-derecha{
+.Imagen-derecha {
     position: absolute;
-    right:  0;
+    right: 0;
     width: 300px;
     height: auto;
 }
+
 .nombre {
     position: absolute;
-    top: 50%; 
-    left: 40%; 
-    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     margin: 0;
     font-size: 40px;
     color: white;
-    
+
 }
 
 #Nombre {
@@ -54,20 +55,48 @@ body{
     z-index: -1;
 }
 
-.Imagen-derecha{
+.Imagen-derecha {
     position: absolute;
-    right:  0;
+    right: 0;
     width: 20%;
     height: auto;
 }
+
 .nombre {
     position: absolute;
-    top: 50%; 
-    left: 40%; 
+    top: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     margin: 0;
     font-size: 40px;
     color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    margin: 20px;
+    font-weight: bold;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav ul>li>a{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    color: #001122;
+    font-size: 20px;
+    margin: 20px;
+   
 }
 
 /* Estilo para la sección de datos laborales */
@@ -79,9 +108,10 @@ body{
     padding: 10px;
     box-sizing: border-box;
     margin: 0;
+    margin-bottom: 50px;
 }
 
-.datoslaborales h1{
+.datoslaborales h1 {
     margin-top: 0;
 }
 
@@ -107,18 +137,18 @@ body{
     padding: 10px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: right; 
-    box-sizing: border-box; 
+    float: right;
+    box-sizing: border-box;
 }
 
 #Textoderecho h1 {
     color: #001122;
     font-size: 24px;
     margin-top: 0;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
-#Proyectos{
+#Proyectos {
     width: 50%;
     margin: 0;
     text-align: justify;
@@ -147,18 +177,20 @@ footer {
     background-color: #001122;
     background-size: cover;
     padding: 20px;
-    text-align: center; 
-    color: white;    
+    text-align: center;
+    color: white;
 }
-footer a{
+
+footer a {
     align-items: center;
     vertical-align: middle;
     font-style: oblique;
     color: white;
     font-weight: bold;
 }
-footer img{
+
+footer img {
     vertical-align: middle;
     margin-right: 10px;
     margin: 20px;
-} 
+}
